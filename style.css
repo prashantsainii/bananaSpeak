@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Josefin+Sans:wght@600;700&display=swap');
+
+body{
+      margin: 0%;
+      font-family: 'Bruno Ace SC', cursive;
+      font-family: 'Josefin Sans', sans-serif;
+      background-color: yellow;
+
+}
+
+.page-header{
+      /* background-color: yellow; */
+      padding: 3vh;
+      text-align: center;
+      font-size: 1.35rem;
+}
+/* .page-header .heading{
+      font-size: 2.5vmax;
+}
+
+.page-header .header-para{
+      font-size: 1.5vmax;
+} */
+
+#txt-input{
+      background-color: yellow;
+      
+}
 #output-div{
       height: 10vh;
       width: 80%;
