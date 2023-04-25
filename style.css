@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Josefin+Sans:wght@600;700&display=swap');
 
-::placeholder{
-      font-family: 'Bruno Ace SC', cursive;
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: large;
-
-}
 :root{
-    --yello-theme : #fffb00;
-    --hover-colour : #fff200;
+      --yello-theme : #fffb00;
+      --hover-colour : #fff200;
+      --font : 'Josefin Sans', sans-serif;
+}
+::placeholder{
+      font-family: var(--font);
+      font-size: 1.2rem;
 }
 
 body{
       margin: 0%;
-      font-family: 'Bruno Ace SC', cursive;
-      font-family: 'Josefin Sans', sans-serif;
+      font-family: var(--font);
       background-color: var(--yello-theme);
 }
 
 .page-header{
       padding: 2rem;
       text-align: center;
-      font-size: 1.35rem;
+      font-size: 1.4rem;
 }
 
 #main{
@@ -30,37 +28,26 @@ body{
       justify-content: space-between;
 }
 .box-field{
-      background-color: var(--yello-theme);
       width: 25rem;
       height: 17rem;
       border: 0.125rem solid black;
       border-radius: 0.15rem;
-      font-size: large;
-      font-family: 'Bruno Ace SC', cursive;
-      font-family: 'Josefin Sans', sans-serif;
+      font-size: 1.35rem;
+      font-family: var(--font);
+      background-color: var(--yello-theme);
       padding: 0.8rem;
       resize: none;
 }
 
-
 #btn-translate{
-      height: 6vh;
-      width: 10vw;
-      background-color: var(--yello-theme);
-      border: none;
       margin: auto;
-      font-size: x-large;
-      font-family: 'Bruno Ace SC', cursive;
-      font-family: 'Josefin Sans', sans-serif;
-      /* text-shadow: yellowgreen; */
+      border: none;
+      font-size: 1.4rem;
+      font-family: var(--font);
+      background-color: var(--yello-theme);
 }
-
 #btn-translate:hover{
-      /* text-shadow: 0px 0px black; */
-      /* text-transform: uppercase; */
-      /* letter-spacing: 0.8px; */
-      font-size: 1.7rem;
-      transition: .25s;
-      /* background-color: var(--hover-colour); */
+      font-size: 1.8rem;
+      transition: .22s;
 }
 
